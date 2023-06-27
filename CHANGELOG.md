@@ -2,6 +2,19 @@
 
 All notable changes to the "Abend Analyzer for Mainframe" extension will be documented in this file.
 
+## [1.1.0] - 2023-06-27
+
+#### Added
+- API Mediation Layer support
+
+#### Changed
+- Readme update
+
+## [1.0.1] - 2022-06-30
+
+#### Changed
+- Readme update
+
 ## [1.0.0] - 2022-03-10
 
 #### Added

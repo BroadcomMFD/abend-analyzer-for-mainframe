@@ -1,11 +1,28 @@
+<div id="header" align="center">
+
+[![GitHub issues](https://img.shields.io/github/issues-raw/BroadcomMFD/abend-analyzer-for-mainframe?style=flat-square)](https://github.com/BroadcomMFD/abend-analyzer-for-mainframe/issues)
+[![slack](https://img.shields.io/badge/chat-on%20Slack-blue?style=flat-square)](https://communityinviter.com/apps/che4z/code4z)
+</div>
+
 # Abend Analyzer for Mainframe
 
 Abend Analyzer for Mainframe provides an interface to [SymDump® CICS](https://www.broadcom.com/products/mainframe/testing-and-quality/symdump-cics) and [SymDump® Batch](https://www.broadcom.com/products/mainframe/testing-and-quality/symdump-batch). This extension allows you to browse, manage and view formatted abend reports and symbolic data in a modern IDE environment.
 
-To find out more about how to use Abend Analyzer, see this [blog post](https://medium.com/modern-mainframe/abend-analyzer-for-mainframe-97922fbfc340).
+Abend Analyzer for Mainframe is also part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including extensions for language support, data editing, testing, and source code management.
+
+To find out more about the capabilities of this extension, see this [blog post](https://medium.com/modern-mainframe/abend-analyzer-for-mainframe-97922fbfc340).
+
+## Compatibility
+
+Abend Analyzer for Mainframe is supported on Visual Studio Code and Github Codespaces.
+
+We recommend the use of [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to access mainframe data sets in connection with your test data analysis. Zowe Explorer is available as part of the Code4z package. 
+
+<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v2 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/explorer/color/zowe-conformant-zowev2-explorer-color.png" width=20% height=20% /></a>
 
 ## Prerequisites
-Abend Analyzer for mainframe requires SymDump version 11 to operate.
+
+Abend Analyzer for Mainframe requires SymDump version 11 to operate.
 
 Before you use Abend Analyzer for Mainframe, complete the following tasks:
 
@@ -26,7 +43,7 @@ To add a connection to the mainframe, **follow these steps**:
 2. In the sidebar, click **Add Connection**.  
 The prompt bar displays at the top of the window.
 3. Enter a name for your connection. Ensure that the connection name is unique.
-4. Enter the URL of your Testing Tools Server instance in the format `http(s)://host:port`.
+4. Enter the URL of your Testing Tools Server instance in the format `http(s)://host:port`, or an API Mediation Layer URL in the format `http(s)://host:port/service-id/api/v1`.
 5. (Optional) Enter your mainframe username and password. If you skip this step, the credentials prompt displays when you open a repository.  
 The connection displays in the sidebar.
 
