@@ -2,6 +2,24 @@
 
 All notable changes to the "Abend Analyzer for Mainframe" extension will be documented in this file.
 
+## [1.3.2] - 2026-07-21
+
+#### Added
+- Warning when connecting using http protocol (without TLS)
+
+#### Changed
+- Use credentials from Zowe credentials store
+- Mainframe username must now be provided in the connection when connecting over basic authentication
+- Readme update
+
+#### Fixed
+- Miscellaneous bug fixes
+
+## [1.3.1] - 2025-07-29
+
+#### Changed
+- Readme update
+
 ## [1.3.0] - 2025-05-28
 
 #### Added
