@@ -2,6 +2,12 @@
 
 All notable changes to the "Abend Analyzer for Mainframe" extension will be documented in this file.
 
+## [1.3.3] - 2026-09-29
+
+#### Changed
+- Emphasize lowered security when trusting self-signed certificates
+- Readme update
+
 ## [1.3.2] - 2026-07-21
 
 #### Added
