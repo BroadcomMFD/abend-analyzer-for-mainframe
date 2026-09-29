@@ -59,7 +59,8 @@ The prompt bar displays at the top of the window.
 4. Select authentication with **Username and Password** or **Zowe Profile**.
 5. If you selected **Username and Password**, do the following:
    1. Enter the URL of your Testing Tools Server instance in the format `http(s)://host:port`, or a Zowe API ML gateway URL in the format `http(s)://host:port/service-id/api/v1`.
-   2. (Testing Tools Server only) Select **No** to block self-signed certificates or **Yes** to trust self-signed certificates.
+   2. (Testing Tools Server only) Select **No** to block self-signed certificates or **Yes** to trust self-signed certificates.  
+   **Note:** Trusting self-signed certificates makes your connection less secure. We recommend that you block self-signed certificates unless you are on a private network or your connection is secured by other means.
    3. Enter your mainframe username.
    4. (Optional) Enter your mainframe password. If you skip this step, a prompt for your password displays when you open a repository.
 6. If you selected **Zowe Profile**, do the following:
@@ -68,6 +69,7 @@ The prompt bar displays at the top of the window.
    3. If the selected profile contains credentials to connect to a Testing Tools Server, do the following:
       1. Enter the URL of your Testing Tools Server instance in the format `http(s)://host:port`.
       2. Select **No** to block self-signed certificates or **Yes** to trust self-signed certificates.
+      **Note:** Trusting self-signed certificates makes your connection less secure. We recommend that you block self-signed certificates unless you are on a private network or your connection is secured by other means.
   
 The connection displays in the sidebar.
  
